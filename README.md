@@ -11,8 +11,8 @@ The management at Atliq Hardwares realized they lack actionable insights to make
 
 
 ### 📝 Project Objective:
-1. SQL Queries:
-      "*"Execute SQL queries to answer each of the 10 ad hoc requests.
+1. SQL Queries:<br />
+      "*"Execute SQL queries to answer each of the 10 ad hoc requests.<br />
 2. Data Visualization:
         Convert query results into meaningful and actionable visualizations for better comprehension.
 3. Insight Presentation:
