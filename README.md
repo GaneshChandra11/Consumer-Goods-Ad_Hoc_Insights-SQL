@@ -11,30 +11,69 @@ The management at Atliq Hardwares realized they lack actionable insights to make
 
 
 ### 📝 Project Objective:
-1. SQL Queries:<br />
-        * Execute SQL queries to answer each of the 10 ad hoc requests.<br />
-2. Data Visualization:<br />
-        * Convert query results into meaningful and actionable visualizations for better comprehension.<br />
-3. Insight Presentation:<br />
-        * Present both visualizations and insights clearly to top-level management for strategic decision-making.<br />
+**SQL Queries**:  
+- Execute SQL queries to answer each of the 10 ad hoc requests.
+
+**Data Visualization**:  
+- Convert query results into meaningful and actionable visualizations for better comprehension.
+
+**Insight Presentation**:  
+- Present both visualizations and insights clearly to top-level management for strategic decision-making.
+
 
 ### 📋 Ad Hoc Requests:<br />
-* Provide the list of markets in which customer "AtliQ Exclusive" operates its business in the APAC region.
+1. **APAC Market Presence**:  
+   List the markets where customer "AtliQ Exclusive" operates in the APAC region.
 
-* What is the percentage of unique product increase in 2021 vs. 2020? The final output contains these fields, unique_products_2020 unique_products_2021 percentage_chg
+2. **Unique Product Increase (2020 vs 2021)**:  
+   Calculate the percentage increase of unique products in 2021 vs. 2020. The output includes:  
+   - `unique_products_2020`  
+   - `unique_products_2021`  
+   - `percentage_chg`
 
-* Provide a report with all the unique product counts for each segment and sort them in descending order of product counts. The final output contains 2 fields, segment product_count
+3. **Unique Products by Segment**:  
+   Report the count of unique products for each segment, sorted in descending order by product count.
 
-* Follow-up: Which segment had the most increase in unique products in 2021 vs 2020? The final output contains these fields, segment product_count_2020 product_count_2021 difference
+4. **Segment-Wise Product Increase (2021 vs 2020)**:  
+   Identify the segment with the largest increase in unique products from 2020 to 2021. Output includes:  
+   - `segment`  
+   - `product_count_2020`  
+   - `product_count_2021`  
+   - `difference`
 
-* Get the products that have the highest and lowest manufacturing costs. The final output should contain these fields, product_code product manufacturing_cost
+5. **Highest and Lowest Manufacturing Cost**:  
+   Find products with the highest and lowest manufacturing costs. Output includes:  
+   - `product_code`  
+   - `product`  
+   - `manufacturing_cost`
 
-* Generate a report which contains the top 5 customers who received an average high pre_invoice_discount_pct for the fiscal year 2021 and in the Indian market. The final output contains these fields, customer_code customer average_discount_percentage
+6. **Top 5 Customers by Discount**:  
+   List the top 5 customers who received the highest average pre-invoice discount percentage in the Indian market for the fiscal year 2021. Output includes:  
+   - `customer_code`  
+   - `customer`  
+   - `average_discount_percentage`
 
-* Get the complete report of the Gross sales amount for the customer “AtliQ Exclusive” for each month . This analysis helps to get an idea of low and high-performing months and take strategic decisions. The final report contains these columns: Month Year Gross sales Amount
+7. **Gross Sales for AtliQ Exclusive**:  
+   Generate a monthly report for "AtliQ Exclusive" showing gross sales in 2021, helping management understand high and low-performing months. Output includes:  
+   - `Month`  
+   - `Year`  
+   - `Gross_sales_amount`
 
-* In which quarter of 2020, got the maximum total_sold_quantity? The final output contains these fields sorted by the total_sold_quantity, Quarter total_sold_quantity
+8. **Highest Sold Quantity in 2020**:  
+   Identify the quarter of 2020 with the maximum sold quantity. Output includes:  
+   - `Quarter`  
+   - `total_sold_quantity` (sorted)
 
-* Which channel helped to bring more gross sales in the fiscal year 2021 and the percentage of contribution? The final output contains these fields, channel gross_sales_mln percentage
+9. **Top Sales Channel (2021)**:  
+   Report the channel that contributed the most to gross sales in 2021 and its percentage contribution. Output includes:  
+   - `channel`  
+   - `gross_sales_mln`  
+   - `percentage`
 
-* Get the Top 3 products in each division that have a high total_sold_quantity in the fiscal_year 2021? The final output contains these fields, division product_code,product total_sold_quantity rank_order
+10. **Top 3 Products by Division (2021)**:  
+    List the top 3 products by total sold quantity for each division in 2021. Output includes:  
+    - `division`  
+    - `product_code`  
+    - `product`  
+    - `total_sold_quantity`  
+    - `rank_order`
